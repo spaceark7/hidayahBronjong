@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Hidayah Bronjong",
+  "name": "Hidayah Bronjong",
+  "description" : "Produsen Bronjong UMKM Terbaik",
   "icons": [
     {
       "src": "favicon.ico",

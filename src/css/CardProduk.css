@@ -1,0 +1,21 @@
+.cp-container {
+    width: 150px;
+    border: #007DBA 2px solid;
+    margin: 15px;
+    padding: 20px;
+}
+
+.cp-container .cp-title h2 {
+    margin: 0;
+}
+
+.cp-container .cp-text {
+    text-align: start;
+    font-size: 12px;
+}
+
+@media (max-width: 425px) {
+    .cp-container {
+        width: 100%;
+    }
+}

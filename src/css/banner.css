@@ -1,0 +1,69 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background:  url("../assets/banner-bg1.webp") no-repeat 20% 20%;
+    background-size: cover;
+
+}
+
+.banner .banner-logo {
+    width: 100%;
+    padding-top: 50px;
+    z-index: 3;
+}
+
+.banner .banner-logo:hover {
+    cursor: pointer;
+}
+
+.banner .banner-logo img {
+    width: 300px;
+}
+
+.banner .banner-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text h3 {
+    color: white;
+    width: 50%;
+    background-color: #007DBA ;
+    padding: 20px;
+    font-size: 0.9em;
+    
+}
+
+.banner .banner-cta {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.banner .banner-cta a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #C10016;
+    color: white;
+}
+
+@media (max-width:425px) {
+    .banner .banner-logo img {
+        width: 200px;
+    }
+
+    .banner .banner-text h3 {
+        width: 70%;
+        font-size: 0.8em;
+    }
+
+    .banner {
+        background-position: 70% 20%;
+    }
+
+    .banner .banner-cta {
+        margin-top: 25px;
+    }
+}

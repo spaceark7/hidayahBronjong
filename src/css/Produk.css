@@ -1,0 +1,36 @@
+.produk-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(241, 241, 241);
+}
+
+.produk-container .produk-title {
+    width: 100%;
+    color: #007DBA;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.produk-container .produk-banner {
+    width: 100%;
+}
+
+.produk-container .produk-banner h2 {
+    font-size: 1em;
+}
+
+.produk-container .produk-banner img {
+    width: 300px;
+}
+
+.produk-container .produk-card {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    padding: 20px;
+}

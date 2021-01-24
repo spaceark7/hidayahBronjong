@@ -1,0 +1,71 @@
+.tentang-container {
+    width: 100%;
+    padding: 0px 0 0px 0;
+    margin-top: 40px;
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+}
+
+.tentang-row {
+    position: relative;
+    width: 100%;
+    display: flex;
+  
+    
+}
+
+.left-col {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.left-col h2 {
+    font-size: 2em;
+    color: #007DBA;
+    text-transform: uppercase;
+}
+
+.left-col p {
+    font-size: 12px;
+}
+.right-col {
+    width: 50%;
+}
+
+.right-col img {
+    position: relative;
+    height: 500px;
+    left: -50px;
+}
+
+@media (max-width:425px) {
+    .left-col {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 4;
+    }
+
+    .right-col {
+        width: 0%;
+    }
+
+    .right-col img {
+        position: absolute;
+        height: auto;
+        width: 400px;
+        /* position: inherit; */
+        /* right: 10px; */
+        left: 40%;
+        bottom: 0;
+        z-index: 2;
+    
+    }
+}

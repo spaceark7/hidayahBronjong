@@ -1,0 +1,55 @@
+.Footer {
+    width: 100%;
+    background-color: #007DBA;
+   
+}
+
+.Footer .footer-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.footer-row .box {
+    width: calc(100%/3);
+    color: white;
+    padding: 20px;
+}
+
+.footer-row .box h2 {
+    font-size: 1em;
+}
+
+.footer-row .box p {
+    font-size: 12px;
+}
+
+.footer-row .box p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.Footer .CopyRight {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0091DA;
+    color: white;
+}
+
+.Footer .CopyRight a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 425px) {
+    .Footer .footer-row {
+        flex-wrap: wrap;
+    }
+
+    .Footer .footer-row .box {
+        width: 100%;
+    }
+}
